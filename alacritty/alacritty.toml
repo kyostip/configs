@@ -1,0 +1,55 @@
+live_config_reload = true
+
+[colors.bright]
+black = "0x1c61c2"
+blue = "0x00ff00"
+cyan = "0x0fdbe6"
+green = "0x0de9d1"
+magenta = "0xdae31b"
+red = "0xff0000"
+white = "0xd7d7d5"
+yellow = "0xf57800"
+
+[colors.cursor]
+cursor = "0x64e40f"
+text = "0x000b1e"
+
+[colors.normal]
+black = "0x123e7c"
+blue = "0x77cde6"
+cyan = "0x64e40f"
+green = "0x16e79d"
+magenta = "0xdae31b"
+red = "0xff0000"
+white = "0xd7d7d5"
+yellow = "0xf57800"
+
+[colors.primary]
+background = "0x000b1e"
+foreground = "0x0abdc6"
+
+[font]
+size = 11
+
+[font.bold]
+family = "Agave"
+style = "Bold"
+
+[font.bold_italic]
+family = "Agave"
+style = "Bold Italic"
+
+[font.italic]
+family = "Agave"
+style = "Italic"
+
+[font.normal]
+family = "Agave"
+style = "Regular"
+
+[shell]
+program = "/usr/bin/fish"
+
+[window]
+decorations = "none"
+opacity = 0.65
